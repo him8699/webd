@@ -1,27 +1,250 @@
 
-/* footer section by himanshu tiwari */
-#myname {
-   background-color: rgb(217, 233, 233);
-   color: rgb(28, 29, 30);
-   text-align: center;
-   padding: 20px;
-   
+/* this part is done by milan pal*/
+*{
+    margin: 0;
+padding: 0;
 }
-#myname1{
-    text-align: left;
-    padding: 10px;
+.heading{
+
+font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+font-size: 33px;
+opacity: 60%;
+display: flex;
+justify-content: center;
 }
-.myname2{
-    padding: 10px;
+.content{
+font-family: 'Quicksand', sans-serif;
+height: 15vh;
+text-align: center;
+margin: 30px 450px 0px 450px;
+font-size: small;
+color: grey;
+opacity: 60%; 
+line-height: 20px; 
 }
-.myname3{
-    padding: 10px;
-    
+.image1
+{
+display: flex;
+flex-wrap: wrap;
 }
-.myname4{
-    padding: 10px;
-    
+b{
+color: black;
+font-family: 'Quicksand', sans-serif;
+
 }
-.myname5{
-    text-align: right;
+
+.container{
+display: flex;
+justify-content:space-between;
+flex-wrap: wrap;
+}
+.details{
+margin-right: 25vw;
+width:400px;
+}
+.box1{
+height: 7vh;
+font-family: 'Quicksand', sans-serif;
+font-size: small;
+color: grey;
+opacity: 60%;
+margin-top: 10vh;
+
+}
+.heading2{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 10vh;
+font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+font-size: 30px;
+opacity: 70%;
+
+}
+.content2{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+font-family: 'Quicksand', sans-serif;
+font-size: small;
+color: grey;
+margin :20px 400px 100px 400px; 
+text-align: center;
+}
+.img2{
+display: inline;
+margin-left: 300px;
+}
+.container3{
+text-align: center;
+line-height: 40px;
+}
+
+
+.heading3{
+
+margin-top: 10vh;
+font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+font-size: 30px;
+opacity: 70%;
+
+
+}
+.content3{
+
+font-family: 'Quicksand', sans-serif;
+font-size: small;
+color: grey;
+opacity: 70%;
+
+
+
+}
+.container2{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 50px;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+
+
+.box2{
+height: 300px;
+width: 300px;
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+color:grey;
+opacity: 70%;
+font-size: small;
+
+}
+.heading5{
+text-align: center;
+margin-bottom: 15px;
+font-size: 30px;
+}
+.container4{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-left: 200px;
+margin-right: 200px;
+margin-bottom: 130px;
+}
+.button1{
+position: relative;
+height: 30px;
+width: 150px;
+background-color: rgb(0, 118, 49);
+left: 200px;
+border-radius: 15px;
+margin-top: 15px;
+color: aliceblue;
+font-family: 'Quicksand', sans-serif;
+
+font-size: small;
+
+}
+.button2{
+position: relative;
+height: 30px;
+width: 150px;
+background-color: rgb(0, 26, 255);
+left: 400px;
+bottom: 30px;
+border-radius: 15px;
+color: aliceblue;
+font-family: 'Quicksand', sans-serif;
+
+font-size: small;
+
+
+}
+.container5{
+position: relative;
+font-family: 'Quicksand', sans-serif;
+line-height: 25px; 
+justify-content: center;
+flex-wrap: wrap;
+font-size: small;
+color: grey;
+opacity: 70%;
+width: 700px;
+text-align: center;
+margin-left: 400px;
+margin-top: 50px;
+}
+
+
+@media (max-width:700px) {
+.heading{
+width:300px;
+height: 100px;
+font-size: 30px;
+text-align: center;
+margin-left: 40px;
+}
+.content{
+text-align: center;
+display: block;
+height:150px;
+width:300px;
+margin-left: 40px;  
+
+}
+img{
+height: 300px;
+width:300px;
+margin-left: 10px;
+}
+
+.box1{
+width: 300px;
+height: 150px;
+margin-bottom: 5px;
+}
+.container{
+height: 500px;
+display: flex;
+justify-content:center;
+margin-left: 100px;
+
+}
+.image1{
+display: block;
+}
+.heading2{
+margin-top: 60vh;
+height: 100px;
+width:300px;
+font-size: 30px;
+text-align: center;
+margin-left: 40px;
+}
+.content2{
+text-align: center;
+display: block;
+height:150px;
+width:300px;
+margin-left: 40px;  
+}
+.heading3{
+height: 100px;
+width:300px;
+font-size: 30px;
+text-align: center;
+margin-left: 40px;
+}
+.content3{
+height: 100px;
+width:300px;
+
+text-align: center;
+margin-left: 40px;
 }
