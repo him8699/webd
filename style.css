@@ -1,0 +1,27 @@
+
+/* footer section by himanshu tiwari */
+#myname {
+   background-color: rgb(217, 233, 233);
+   color: rgb(28, 29, 30);
+   text-align: center;
+   padding: 20px;
+   
+}
+#myname1{
+    text-align: left;
+    padding: 10px;
+}
+.myname2{
+    padding: 10px;
+}
+.myname3{
+    padding: 10px;
+    
+}
+.myname4{
+    padding: 10px;
+    
+}
+.myname5{
+    text-align: right;
+}
